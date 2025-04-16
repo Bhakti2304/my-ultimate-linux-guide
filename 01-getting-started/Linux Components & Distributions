@@ -1,0 +1,32 @@
+The main component of a Linux Machine is the Linux Kernel.
+- The interaction of Harware such as Process management, memory management, device management, network management, everything handles through Kernel.
+- On top of Linux Kernel, there are System Libraries(OpenSSL, libc, glibc etc), System Utilities( ls, grep, systmectl etc) and On top of that there is CLI or GUI. In case of Linux, there is CLI such as Bash, Zsh, Fish etc.
+
+----------------------------------
+
+Ubuntu, Redhat, Debian, Alpine, Fedora use the OpenSource Linux and add some features or commands to make their own OS and distribute them as new products.
+- Therefore, if you have shell script running on the Ubuntu also have Redhat, due to having same underlying libraries, packages.
+- Ubuntu is the most Popular distribution among others. 
+
+-----------------------------------
+
+There are multiple ways to set up a Linux environment on Windows or Mac machines
+
+1. To install Linux on your Windows machine, just type 'wsl' in Powershell and restart your machine.
+2. The alternative is Docker container to run a Linux environment.  
+   - Just install Docker Desktop and run the below command, which creates a linux container without worrying about the cost and connectivity issues.
+
+docker run -dit \
+  --name ubuntu-container \
+  --hostname ubuntu-dev \
+  --restart unless-stopped \
+  --cpus="2" \
+  --memory="4g" \
+  --mount type=bind,source=C:/ubuntu-data,target=/data \
+  -v /var/run/docker.sock:/var/run/docker.sock \
+  -p 2222:22 \
+  -p 8080:80 \
+  --env TZ=Asia/Kolkata \
+  --env LANG=en_US.UTF-8 \
+  ubuntu:latest /bin/bash
+                 
