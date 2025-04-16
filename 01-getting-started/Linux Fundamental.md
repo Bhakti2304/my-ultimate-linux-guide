@@ -14,3 +14,19 @@ History:
 - In 1970s Minix was invented. It is partially open source.
 - In 1980s Microsoft released Windows. It enriched GUI without using commands, unlike Unix and Minix. 
 - In 1990s, a person called Linus worked on Linux Kernel and became popular. It is open source, super secure, and backed by developers.
+-----------------------------
+
+# Core components of a Linux Machine
+
+The main component of a Linux Machine is the Linux Kernel.
+
+- The interaction of Harware such as Process management, memory management, device management, network management, everything handles through Kernel.
+- On top of Linux Kernel, there are System Libraries(OpenSSL, libc, glibc etc), System Utilities( ls, grep, systmectl etc) and On top of that there is CLI or GUI. In case of Linux, there are CLI such as Bash, Zsh, Fish etc.
+
+----------------------------------
+# Linux Distributions
+
+Ubuntu, Redhat, Debian, Alpine, Fedora use the OpenSource Linux and add some features or commands or package managers(it helps you to deploy/install dependencies like Python, it helps you to upgrade/ maintain/ delete version of of package like Python or Java) to make their own OS and distribute them as new products.
+
+- Therefore, if you have shell script running on the Ubuntu also have Redhat, due to having same underlying libraries, packages.
+- Ubuntu is the most Popular distribution among others. 
