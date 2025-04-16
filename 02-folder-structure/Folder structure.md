@@ -26,6 +26,14 @@ Create a new directory or folder
 
  `/var` | Stores logs, caches, and temporary files that change frequently
 
-`/home` | Default location for user home directories
+`/home` | Default location for user home directories (ex. /home/ubuntu or /home/user1)
 
 `/data` | Likely your **mounted volume** from Windows (`C:/ubuntu-data`)
+
+`/tmp` | Temporary files (cleared on reboot)
+
+`/root` | Home directory for the root user
+
+`/run` | Holds runtime data for processes
+
+`/etc` | Stores system configuration files
