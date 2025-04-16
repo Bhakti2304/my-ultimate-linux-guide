@@ -46,3 +46,15 @@ docker run -dit \
 It checks the repository list (e.g., /etc/apt/sources.list in Ubuntu).
 It downloads the package and its dependencies.
 It installs and configures the software automatically.
+
+- Best Practices for Using Package Managers
+
+✅ Always update your package list before installing software:
+sudo apt update && sudo apt upgrade -y
+
+✅ Use autoremove to clean up unused dependencies:
+sudo apt autoremove
+
+✅ Enable automatic security updates (Ubuntu):
+sudo apt install unattended-upgrades
+sudo dpkg-reconfigure unattended-upgrades
