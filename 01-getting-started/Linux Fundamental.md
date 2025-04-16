@@ -1,3 +1,5 @@
+# Fundamental and history of Linux
+
 What is Operating System?
 - It is a software program that knows how to use Hardware and performs process management, memory management, device management, network management. 
 - Application talks to OS, which allocates CPU, Memory,and required Hardware resources according to the Program.
