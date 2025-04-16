@@ -34,6 +34,7 @@ docker run -dit \
 - To get the container ID, run 'docker ps'
 - then run 
       docker exec -it <container_ID>
+
 -------------------------------------------------
 
 - When we use Ubuntu, the package manager is 'apt'.
