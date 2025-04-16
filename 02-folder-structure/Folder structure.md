@@ -33,7 +33,7 @@ List all the  files and folders in the particular directory
 
 `/run` | Holds runtime data for processes
 
-`/etc` | Stores system configuration files (similar to 'C:/' drive in Windows)
+`/etc` | Stores system configuration files (similar to `C:/` drive in Windows)
 
 
 ### **Important System Directories**
