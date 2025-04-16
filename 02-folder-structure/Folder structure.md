@@ -5,9 +5,6 @@
 ls -ltr
 List all the  files and folders in the particular directory
 
-mkdir
-Create a new directory or folder
-
  `/sbin -> /usr/sbin` | System binaries for administrative commands (for admin commands) (linked to `/usr/sbin`)
 
  `/lib -> /usr/lib` | Libraries used by kernel for making system call to the Hardware (linked to `/usr/lib`)
@@ -36,4 +33,4 @@ Create a new directory or folder
 
 `/run` | Holds runtime data for processes
 
-`/etc` | Stores system configuration files
+`/etc` | Stores system configuration files (similar to C:/ drive in Windows)
