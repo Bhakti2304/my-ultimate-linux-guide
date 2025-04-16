@@ -2,4 +2,8 @@
 
 
 ls -ltr
-List all the  files and folders in the perticular directory
+List all the  files and folders in the particular directory
+
+mkdir
+Create a new directory or folder
+
