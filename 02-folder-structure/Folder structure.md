@@ -25,3 +25,7 @@ Create a new directory or folder
  `/mnt` | Temporary mount point for external filesystems(adding/mounting the more temporary storage/volume location)
 
  `/var` | Stores logs, caches, and temporary files that change frequently
+
+`/home` | Default location for user home directories
+
+`/data` | Likely your **mounted volume** from Windows (`C:/ubuntu-data`)
