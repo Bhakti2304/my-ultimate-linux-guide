@@ -44,3 +44,27 @@ List all the  files and folders in the particular directory
 | `/usr` |
 | `/var` |
 | `/etc` |
+
+### **User & Application-Specific Directories**
+| Directory |
+|-----------|
+| `/home` |
+| `/opt` |
+| `/srv` |
+| `/root` |
+
+### **Temporary & Volatile Directories**
+| Directory |
+|-----------|
+| `/tmp` |
+| `/run` |
+| `/proc` |
+| `/sys` |
+| `/dev` |
+
+### **Mount Points**
+| Directory |
+|-----------|
+| `/mnt` |
+| `/media` |
+| `/data` |
